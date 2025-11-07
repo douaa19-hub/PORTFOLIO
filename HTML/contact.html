@@ -5,22 +5,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Portfolio | Home</title>
   <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-  <header>
-    <ul>
-      <li><a href="home.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="projects.html">Projects</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
+  <header class="nav-bar">
+    <nav class="nav-links">
+          <a href="home.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="projects.html">Projects</a>
+          <a href="contact.html">Contact</a>
+        </ul>
+    </nav>
   </header>
 
   <main>
-    <h2>Contact Me</h2>
-    <section class="contact-section">
-      <p>If you’d like to collaborate or just say hello, feel free to send me a message!</p>
-
+    <section class="title">
+    <h1>Contact Me ...<∕></h1>
+    <p class="welcome">If you’d like to collaborate or just say hello, feel free to send me a message!</p>
+   </section>
+    <section class="contact">
       <form action="#" method="post" class="contact-form">
         <label for="name">Name</label>
         <input type="text" id="name" name="name" required />
@@ -38,13 +41,13 @@
         <h3>📧 My Email</h3>
         <p><a href="mailto:doudi8087@gmail.com">doudi8087@gmail.com</a></p>
 
-        <h3>🌐 My Pages</h3>
-        <ul>
-          <li><a href="https://github.com/douaa19-hub" target="_blank">GitHub</a></li>
-          <li><a href="#discord" target="_blank">Discord</a></li>
-          <li><a href="#linkedin" target="_blank">LinkedIn</a></li>
-          <li><a href="#instagram" target="_blank">Instagram</a></li>
-        </ul>
+        <h3 class="my-pages">🌐 My Pages</h3>
+          <div class="links">
+            <a href="https://github.com/douaa19-hub" target="_blank"><i class="fab fa-github"></i> GitHub</a><br>
+            <a href="https://discord.com/users/ton-id" target="_blank"><i class="fab fa-discord"></i> Discord</a><br>
+            <a href="https://www.linkedin.com/in/ton-profil" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a><br>
+            <a href="https://www.instagram.com/ton-profil" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>   
+          </div>
       </div>
     </section>
   </main>
